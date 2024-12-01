@@ -1,0 +1,144 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0A0B0F;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #747bff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #0A0B0F;
+}
+
+.dashboard-max {
+  background: #0A0B0F;
+}
+
+.topbar-pc {
+  background: #16171B;
+  border-bottom: 1px solid #2A2D36;
+}
+
+.card, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7 {
+  background: #16171B;
+  border: 1px solid #2A2D36;
+}
+
+.frame-1597888345, .frame-1597888346, .frame-1597888348 {
+  border-color: #2A2D36;
+}
+
+.chart-datasorttab, .chart-datasorttab-1 {
+  background: #2A2D36;
+}
+
+.chart-datasort, .chart-datasort-4 {
+  background: #385CF2;
+}
+
+.text-1d, .text-1d-1 {
+  color: #FFFFFF;
+}
+
+.text-1w, .text-1m, .text-1y,
+.text-1w-1, .text-1m-1, .text-1y-1 {
+  color: #9BA1A6;
+}
+
+.dashboard, .swap, .pool, .staking, .lending,
+.overview, .trending-collections,
+.trending, .hot-token, .hot-pair-apr {
+  color: #FFFFFF;
+}
+
+.tvl, .volume, .text-fee-in-24h {
+  color: #9BA1A6;
+}
+
+.text-23501m, .text-245m, .text-1008m,
+.text-1008m-1, .text-1008m-2, .text-265m {
+  color: #FFFFFF;
+}
+
+.chart-price-percent {
+  background: rgba(0, 177, 113, 0.1);
+}
+
+.chart-price-percent-2 {
+  background: rgba(255, 62, 20, 0.1);
+}
+
+.selected-value-box, .selected-value-box-1 {
+  background: #16171B;
+}
+
+.slit {
+  background: #2A2D36;
+}
+
+.frame-1597894091 {
+  background: #0A0B0F;
+}
+
+.rectangle-34629559, .rectangle-34629560 {
+  background: #2A2D36;
+}
+
+.tobbar-btn {
+  background: #385CF2;
+  color: #FFFFFF;
+}
+
+.text--wemax-ltd-all-rights-reserved {
+  color: #9BA1A6;
+}
+
+/* Chart colors */
+.chart-line, .chart-stick {
+  background: #16171B;
+}
+
+.chart-axis-vertical, .chart-axis-horizon {
+  color: #9BA1A6;
+}
+
+/* Hover states */
+a:hover {
+  color: #747bff;
+}
+
+.tobbar-btn:hover {
+  background: #4B6EFF;
+}
+
+/* Media query for light mode preference - removed since we're enforcing dark mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #0A0B0F;
+  }
+  button {
+    background-color: #16171B;
+  }
+}
